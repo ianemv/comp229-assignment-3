@@ -1,6 +1,9 @@
 import config from "./config/config.js";
 import app from "./app/express.js";
 import mongoose from 'mongoose';
+import dotenv from 'dotenv';
+dotenv.config();
+console.log("MONGODB_URI from .env:", process.env.MONGODB_URI);
 mongoose.Promise = global.Promise;
 mongoose.connect(config.mongoUri, 
 	{ 
