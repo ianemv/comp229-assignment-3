@@ -34,3 +34,5 @@ To run Products Marketplace locally, follow these steps:
 git clone https://github.com/yourusername/products-marketplace.git
 npm install
 npm run dev to run
+
+Author : Ian Villanueva
